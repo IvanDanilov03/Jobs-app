@@ -39,7 +39,7 @@ const JobsPage: React.FC = () => {
       setIsLoading(false);
       setHttpError((error as Error).message);
     }
-  }, [setIsLoading, setHttpError]);
+  }, [setIsLoading, setHttpError, pageNumber]);
 
   useEffect(() => {
     fetchJobs();
