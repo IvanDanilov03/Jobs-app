@@ -53,13 +53,17 @@ const Contacts: React.FC<ContactsProps> = (props) => {
             />
           </svg>
         </div>
-        <p className="ml-2 text-base font-light">{address}</p>
+        <p className="ml-2 text-base font-light">
+          <a href={`https://www.google.com/maps/search/?api=1&query=${lat},${long}`} target="_blank">
+            {address}
+          </a>
+        </p>
       </div>
       <p className="text-white text-base opacity-60 font-light mx-10 pt-2">
-        {phone}
+        <a href={`tel:${phone}"`}>{phone}</a>
       </p>
       <p className="text-white text-base opacity-60 font-light mx-10 pb-5">
-        {email}
+        <a href={`mailto:${email}"`}>{email}</a>
       </p>
       <MapContainer
         className="w-full h-44"
