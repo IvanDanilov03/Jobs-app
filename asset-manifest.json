@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Jobs-app/static/css/main.ef111317.css",
+    "main.js": "/Jobs-app/static/js/main.c380007e.js",
+    "index.html": "/Jobs-app/index.html",
+    "main.ef111317.css.map": "/Jobs-app/static/css/main.ef111317.css.map",
+    "main.c380007e.js.map": "/Jobs-app/static/js/main.c380007e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef111317.css",
+    "static/js/main.c380007e.js"
+  ]
+}
