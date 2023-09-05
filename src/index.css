@@ -10,7 +10,7 @@
   }
   html,
   body {
-    @apply font-sans;
+    @apply font-sans !important;
     @apply m-0;
     /* @apply bg-slate-200; */
   }
